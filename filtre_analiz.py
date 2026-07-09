@@ -28,4 +28,4 @@ for f in test_frekanslari:
     
     print(f"Frekans: {f:5d} Hz | V_out: {v_out:.3f} V | Kazanç: {db:.2f} dB")
     if f == 1590:
-        print("  -> [MÜLAKAT NOTU]: Bak tam kesim frekansında voltaj 0.707V'a, kazanç -3dB'e düştü!")
+        print("  -> Tam kesim frekansında voltaj 0.707V'a, kazanç -3dB'e düştü!")
